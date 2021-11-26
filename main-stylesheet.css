@@ -1,8 +1,8 @@
-                                                    /*********************************/
-													/*                               */
-                                                    /*        Main StyleSheet        */
-                                                    /*                               */
-                                                    /*********************************/
+																							/*********************************/
+																							/*                               */
+																							/*        Main StyleSheet        */
+																							/*                               */
+																							/*********************************/
 													
 /* -- Background theme */
 
@@ -17,11 +17,17 @@ body {
 .main-title {
 	font-size: 100px ;
 	text-align : center ;
-	text-color : 1E8444 ;
+	color : #1E8444 ;
 }
 
 .left-button {
 	font-size: 100px ;
-	text-align : right;
+	text-align: right ;
 	transform : translate(0 , 200%);
+	height : 50%;
+}
+
+.left-button:hover {
+	color : #58D68D;
+
 }
