@@ -20,14 +20,47 @@ body {
 	color : #1E8444 ;
 }
 
-.left-button {
-	font-size: 100px ;
-	text-align: right ;
-	transform : translate(0 , 200%);
-	height : 50%;
+.zoom {
+	width: 320px;
+	height: 240px;
 }
 
-.left-button:hover {
-	color : #58D68D;
+/* -- Right button Settings */
 
+.right-button {
+	position : absolute;
+	margin-left : 92.75%;
+	margin-top : 15%;
 }
+
+.right-button img {
+	-webkit-transition: all 1s ease; 
+	transition: all 1s ease;
+	}
+
+.right-button:hover img {
+
+	-webkit-transform:scale(1.25); 
+	transform:scale(1.25);
+	}
+
+
+/* -- Left button Settings */
+
+	.left-button {
+		position : absolute;
+		margin-top : 15%;
+		margin-left : 1%;
+		transform : scaleX(-1);
+	}
+	
+	.left-button img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.left-button:hover img {
+	
+		-webkit-transform:scale(1.25); 
+		transform:scale(1.25);
+	}
