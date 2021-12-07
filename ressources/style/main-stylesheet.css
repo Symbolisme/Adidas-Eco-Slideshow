@@ -1,5 +1,6 @@
 																							/*********************************/
 																							/*                               */
+																							/*                               */
 																							/*        Main StyleSheet        */
 																							/*                               */
 																							/*********************************/
@@ -18,11 +19,12 @@ body {
 	font-size: 100px ;
 	text-align : center ;
 	color : #1E8444 ;
+        font-family: "Papyrus", "fantasy";
 }
 
 .zoom {
-	width: 320px;
-	height: 240px;
+	width: 350px;
+	height: 540px;
 }
 
 /* -- Right button Settings */
@@ -30,7 +32,7 @@ body {
 .right-button {
 	position : absolute;
 	margin-left : 92.75%;
-	margin-top : 15%;
+	margin-top : -5%;
 }
 
 .right-button img {
@@ -49,8 +51,8 @@ body {
 
 	.left-button {
 		position : absolute;
-		margin-top : 15%;
 		margin-left : 1%;
+		margin-top : -5%;
 		transform : scaleX(-1);
 	}
 	
