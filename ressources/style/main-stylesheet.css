@@ -1,13 +1,13 @@
-/*********************************/
-/*                               */
-/*                               */
-/*        Main StyleSheet        */
-/*                               */
-/*********************************/
+																	/*********************************/
+																	/*                               */
+																	/*        Main StyleSheet        */
+																	/*                               */
+																	/*********************************/
+
 /* -- Background theme */
 
 body {
-	font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin: 0;
 	background : lightgray;
 }
@@ -18,7 +18,7 @@ body {
 	font-size: 100px ;
 	text-align : center ;
 	color : #1E8444 ;
-        font-family: "Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif";
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .zoom {
@@ -31,7 +31,7 @@ body {
 .right-button {
 	position : absolute;
 	margin-left : 92.75%;
-	margin-top : -5%;
+	margin-top : 5%;
 }
 
 .right-button img {
@@ -51,7 +51,7 @@ body {
 	.left-button {
 		position : absolute;
 		margin-left : 1%;
-		margin-top : -5%;
+		margin-top : 5%;
 		transform : scaleX(-1);
 	}
 	
