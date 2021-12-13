@@ -8,14 +8,16 @@
 
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin: 0;
-	background-image : url(../images/back-index.jpeg);
+	margin-bottom: 0;
+	background-image: url("../images/back-index.jpg");
+    background-repeat: no-repeat;
+    overflow : hidden ; 
 }
 
 /* -- Customed Divs */
 
 .main-title {
-	font-size: 100px ;
+	font-size: 125px ;
 	text-align : center ;
 	color : #1E8444 ;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -31,7 +33,7 @@ body {
 .right-button {
 	position : absolute;
 	margin-left : 92.75%;
-	margin-top : 5%;
+	margin-top : -15%;
 }
 
 .right-button img {
