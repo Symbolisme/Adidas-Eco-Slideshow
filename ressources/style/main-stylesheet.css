@@ -23,17 +23,39 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.title {
+	margin-left : 30%;
+	position: absolute;
+	font-size: 85px;
+	text-align : center ;
+	color : #1E8444 ;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
 .zoom {
 	width: 350px;
 	height: 540px;
 }
+
+.paragraph {
+	font-size: 75px ;
+	margin-left : 25%;
+	color : lightgreen;
+	font-family: "Trebuchet MS" , Helvetica , sans-serif;
+	
+}
+
+a:visited {
+	color : lightgreen;
+	text-decoration : n;
+} 
 
 /* -- Right button Settings */
 
 .right-button {
 	position : absolute;
 	margin-left : 92.75%;
-	margin-top : -15%;
+	margin-top : 0%;
 }
 
 .right-button img {
@@ -43,8 +65,8 @@ body {
 
 .right-button:hover img {
 
-	-webkit-transform:scale(1.25); 
-	transform:scale(1.25);
+	-webkit-transform:scale(1.40); 
+	transform:scale(1.40);
 	}
 
 
@@ -64,6 +86,44 @@ body {
 	
 	.left-button:hover img {
 	
-		-webkit-transform:scale(1.25); 
-		transform:scale(1.25);
+		-webkit-transform:scale(1.40); 
+		transform:scale(1.40);
+	}
+
+/* -- Images Settings */
+
+	.chaussure1 {
+		width : 420px;
+		height: 420px;
+	}
+
+	.chaussure1 img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.chaussure1:hover img {
+		-webkit-transform:scale(1.15); 
+		transform:scale(1.15);
+	}
+
+	.chaussure2 {
+		width : 420px;
+		height: 420px;
+	}
+
+	.chaussure2 img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.chaussure2:hover img {
+		-webkit-transform:scale(1.15); 
+		transform:scale(1.15);
+	}
+
+	.affichageshoes {
+		margin-top : 10%;
+		margin-left: 10%;
+		text-align: center;
 	}
