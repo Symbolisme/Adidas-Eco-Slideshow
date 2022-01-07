@@ -10,7 +10,7 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin-bottom: 0;
 	background-image: url("../images/back-index.jpg");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat fixed;
     overflow : hidden ; 
 }
 
@@ -21,6 +21,7 @@ body {
 	text-align : center ;
 	color : #1E8444 ;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 900;
 }
 
 .title {
@@ -30,6 +31,7 @@ body {
 	text-align : center ;
 	color : #1E8444 ;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: 900;
 }
 
 .zoom {
@@ -40,15 +42,21 @@ body {
 .paragraph {
 	font-size: 75px ;
 	margin-left : 25%;
-	color : lightgreen;
+	color : #1D5C08;
 	font-family: "Trebuchet MS" , Helvetica , sans-serif;
 	
 }
 
 a:visited {
-	color : lightgreen;
+	color : #1D5C08;
 	text-decoration : n;
 } 
+
+.info {
+	color : #1D5C08 ;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+}
 
 /* -- Right button Settings */
 
@@ -126,4 +134,49 @@ a:visited {
 		margin-top : 10%;
 		margin-left: 10%;
 		text-align: center;
+	}
+
+	.eco1 {
+		width : 420px;
+		height: 420px;
+	}
+
+	.eco1 img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.eco1:hover img {
+		-webkit-transform:scale(1.15); 
+		transform:scale(1.15);
+	}
+
+	.eco2 {
+		width : 420px;
+		height: 420px;
+	}
+
+	.eco2 img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.eco2:hover img {
+		-webkit-transform:scale(1.15); 
+		transform:scale(1.15);
+	}
+
+	.iut {
+		margin-top : -20%;
+		text-align: center;
+	}
+
+	.iut img {
+		-webkit-transition: all 1s ease; 
+		transition: all 1s ease;
+		}
+	
+	.iut:hover img {
+		-webkit-transform:scale(1.15); 
+		transform:scale(1.15);
 	}
