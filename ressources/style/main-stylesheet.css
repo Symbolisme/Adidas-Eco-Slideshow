@@ -35,8 +35,8 @@ body {
 }
 
 .zoom {
-	width: 350px;
-	height: 540px;
+	width: 750px;
+	height: 850px;
 }
 
 .paragraph {
@@ -56,6 +56,7 @@ a:visited {
 	color : #1D5C08 ;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: bold;
+	text-align: left;
 }
 
 /* -- Right button Settings */
@@ -63,8 +64,9 @@ a:visited {
 .right-button {
 	position : absolute;
 	margin-left : 92.75%;
-	margin-top : 0%;
+	margin-top : 1%;
 }
+
 
 .right-button img {
 	-webkit-transition: all 1s ease; 
@@ -80,13 +82,13 @@ a:visited {
 
 /* -- Left button Settings */
 
-	.left-button {
-		position : absolute;
-		margin-left : 1%;
-		margin-top : 5%;
-		transform : scaleX(-1);
-	}
-	
+.left-button {
+	position : absolute;
+	margin-left : 1%;
+	margin-top : 1%;
+	transform : scaleX(-1);
+}
+
 	.left-button img {
 		-webkit-transition: all 1s ease; 
 		transition: all 1s ease;
@@ -103,6 +105,8 @@ a:visited {
 	.chaussure1 {
 		width : 420px;
 		height: 420px;
+		margin-left : -20%;
+		margin-top : -20%;
 	}
 
 	.chaussure1 img {
@@ -118,6 +122,8 @@ a:visited {
 	.chaussure2 {
 		width : 420px;
 		height: 420px;
+		margin-left : 50%;
+		margin-top : -15%;
 	}
 
 	.chaussure2 img {
@@ -136,9 +142,16 @@ a:visited {
 		text-align: center;
 	}
 
+	.affichagesources{
+		text-align: center;
+		margin-top: 5%;
+	}
+
 	.eco1 {
 		width : 420px;
 		height: 420px;
+		margin-left : 8%;
+		margin-top : 10%;
 	}
 
 	.eco1 img {
@@ -154,6 +167,8 @@ a:visited {
 	.eco2 {
 		width : 420px;
 		height: 420px;
+		margin-left : -10%;
+		margin-top : 5%;
 	}
 
 	.eco2 img {
