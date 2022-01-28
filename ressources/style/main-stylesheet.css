@@ -11,12 +11,12 @@ body {
 	margin-bottom: 0;
 	background-image: url("../images/back-index.jpg");
     background-repeat: no-repeat fixed;
-    overflow : hidden ; 
+    overflow : hidden; 
 }
-
 /* -- Customed Divs */
 
 .main-title {
+
 	font-size: 125px ;
 	text-align : center ;
 	color : #1E8444 ;
@@ -25,8 +25,6 @@ body {
 }
 
 .title {
-	margin-left : 30%;
-	position: absolute;
 	font-size: 85px;
 	text-align : center ;
 	color : #1E8444 ;
@@ -40,16 +38,15 @@ body {
 }
 
 .paragraph {
-	font-size: 75px ;
+	font-size: 75px;
 	margin-left : 25%;
 	color : #1D5C08;
 	font-family: "Trebuchet MS" , Helvetica , sans-serif;
-	
 }
 
 a:visited {
 	color : #1D5C08;
-	text-decoration : n;
+	text-decoration : none;
 } 
 
 .info {
@@ -59,25 +56,43 @@ a:visited {
 	text-align: left;
 }
 
+.iut {
+	display : flex;
+}
+
+.presentation {
+	font-weight: bold;
+	color : #1D5C08;
+	display : flex;
+	margin-top: 5%;
+	margin-left: 70%;
+}
+
+.pagination {
+	font-weight: bold;
+	color : #1D5C08;
+}
+
 /* -- Right button Settings */
 
 .right-button {
-	position : absolute;
-	margin-left : 92.75%;
-	margin-top : 1%;
+	position : fixed;
+	margin-top: 25%;
+	margin-left:90%;
 }
 
 
 .right-button img {
+	position : fixed;
 	-webkit-transition: all 1s ease; 
 	transition: all 1s ease;
-	}
+}
 
 .right-button:hover img {
-
+	position: fixed;
 	-webkit-transform:scale(1.40); 
 	transform:scale(1.40);
-	}
+}
 
 
 /* -- Left button Settings */
@@ -85,7 +100,7 @@ a:visited {
 .left-button {
 	position : absolute;
 	margin-left : 1%;
-	margin-top : 1%;
+	margin-top : 25%;
 	transform : scaleX(-1);
 }
 
@@ -102,13 +117,75 @@ a:visited {
 
 /* -- Images Settings */
 
-	.chaussure1 {
-		width : 420px;
-		height: 420px;
-		margin-left : -20%;
-		margin-top : -20%;
+	.affichageshoes {
+		color : #1D5C08;
+		font-size : 20px;
+		margin-top: 50px;
+		display : flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
+	.affichageshoes .chaussure1 {
+		display : flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 100px;
+		align-items: center;
+		align-content: center;
+	}
+
+	.affichageshoes .chaussure2 {
+		display : flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 100px;
+		align-items: center;
+		align-content: center;
+	}
+
+	.affichagevente {
+		padding-left : 80px;
+		padding-right: 105px;;
+		color : #1D5C08;
+		font-size : 20px;
+		margin-top: -25px;
+		display : flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.affichagevente .pointrelais {
+		text-align: center;
+		display : flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 50px;
+		align-items: center;
+		align-content: center;
+	}
+
+	.affichagevente .transportvert {
+		text-align: center;
+		display : flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 50px;
+		align-items: center;
+		align-content: center;
+	}
+
+	.thanks {
+		margin-top: 15%;
+		font-size : 75px;
+		color : #1D5C08;
+		text-align: center;
+	}
+	.prixChauss {
+		font-weight: bold;
+		font-size: 25px;
+	}
+	
 	.chaussure1 img {
 		-webkit-transition: all 1s ease; 
 		transition: all 1s ease;
@@ -119,12 +196,6 @@ a:visited {
 		transform:scale(1.15);
 	}
 
-	.chaussure2 {
-		width : 420px;
-		height: 420px;
-		margin-left : 50%;
-		margin-top : -15%;
-	}
 
 	.chaussure2 img {
 		-webkit-transition: all 1s ease; 
@@ -136,15 +207,10 @@ a:visited {
 		transform:scale(1.15);
 	}
 
-	.affichageshoes {
-		margin-top : 10%;
-		margin-left: 10%;
-		text-align: center;
-	}
-
 	.affichagesources{
 		text-align: center;
-		margin-top: 5%;
+		margin-top: 10%;
+		font-size : 30px;
 	}
 
 	.eco1 {
@@ -194,4 +260,11 @@ a:visited {
 	.iut:hover img {
 		-webkit-transform:scale(1.15); 
 		transform:scale(1.15);
+	}
+
+	.conclusiontext {
+		color : #1D5C08;
+		font-size : 25px;
+		text-align : center;
+		margin-top : 15%;
 	}
